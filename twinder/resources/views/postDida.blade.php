@@ -7,7 +7,7 @@
   <body>
     <h1>Post del dia</h1>
 
-    <p>USER: {{ $post->name }}</p>
+    <p>USER: {{ $post->user->name }}</p>
     <p>{{ $post->text }}</p>
 
 </html>
